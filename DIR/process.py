@@ -1,6 +1,6 @@
 def search(sn):
     res_list = []
-    path = 'Seminar 7\Task 51\data.txt'
+    path = 'data.txt'
     with open(path, 'r', encoding='utf-8') as file:
         while True:
             # сперва мы считываем данные до того момента, как дойдем до двух переходов строк (# если в файле нет пустых строчек, то он всё равно их читает, как пустые, останавливаемся по двум пустым строчкам в конце перечня)
@@ -21,7 +21,7 @@ def search(sn):
 
 
 def export(res):
-    path = 'Seminar 7\Task 51\data.txt'
+    path = 'data.txt'
     with open(path, 'a', encoding='utf-8') as file:
         # file.write('\n')
         for ind in range(5):
