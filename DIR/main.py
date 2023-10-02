@@ -1,3 +1,5 @@
-import controller
+from ui import interface
 
-controller.button_click()
+
+if __name__ == "__main__":
+    interface()
